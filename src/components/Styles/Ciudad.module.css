@@ -1,0 +1,39 @@
+.card{
+    position: relative;
+    justify-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    width: fit-content;
+    display: block;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin: 1rem;
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+}
+.cards{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.datos{
+    justify-content: center;
+    display: block;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 1rem;
+}
+
+h3{
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.hname{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}

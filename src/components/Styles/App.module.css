@@ -1,0 +1,31 @@
+
+body{
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://acortar.link/efjpgZ');
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2,fr);
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+
+  backdrop-filter: blur(150px);
+  border: 1px solid transparent;
+  background-color: blue 3;
+}

@@ -1,0 +1,47 @@
+.card{
+    position: relative;
+    justify-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin: 1rem;
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+}
+
+.cardBtn{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color:#ffffff;
+    background-color: #e63946;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    width: 1.5rem;
+    height: 1.5rem;   
+    text-decoration: none;
+}
+
+.hname{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.datos{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.10rem;
+    font-weight: 600;
+    text-align: center;
+}
