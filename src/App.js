@@ -11,7 +11,7 @@ export default function App() {
   const [cities, setCities] = useState([]);
   
   function onSearch(ciudad){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
     .then(r => r.json())
     .catch(error => console.error(error))
     .then((recurso) => {
