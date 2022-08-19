@@ -12,7 +12,7 @@ export default function About() {
                     <p>Mi Nombre es Gonzalo Torres Grau y soy Técnico en Electrónica</p>
                     <p>"The weather App" es mi primer proyecto web en React.</p>
                     <p>Otro de mis Proyectos es "Alarma Geografica" y te invito a conocer su landing page.</p>
-                    <a href="https:alarmageografica.com"><img className={Style.ag} src={Alarma} alt='Logo Alarma Geográfica'></img></a>
+                    <a href="https://alarmageografica.com"><img className={Style.ag} src={Alarma} alt='Logo Alarma Geográfica'></img></a>
                     <p>Mi perfil de Linkedin<a href='https://www.linkedin.com/in/%E2%98%85gonzalo-torres-grau-2825b263/'><AiOutlineLinkedin className={Style.ico}/></a></p>
                     <p>Mi perfil de Github<a href='https://github.com/gtorresgrau'><AiFillGithub className={Style.ico}/></a></p>
                 </section>   
